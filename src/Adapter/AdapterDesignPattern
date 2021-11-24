@@ -1,0 +1,6 @@
+ What is the Adapter Design Pattern ?
+
+  0- Allows 2 incompatible interfaces to work together
+  0- Used when the client expects a (target) interface
+  0- The Adapter class allows the use of the available interface and the the target interface
+  0- Any class Can work together as long as the Adapter solves the issue that all classes must implement every method defined by the shared interface

@@ -1,0 +1,4 @@
+ 0-  Creating new Objects(instances) by clonning (coppyng) other objects
+ 0- Allows for adding of any subclass instance of a known super class at runtime
+ 0- When there are numerous potential classes that you want to only use if needed at runtime
+ 0- Reduces the need for creating subclasses

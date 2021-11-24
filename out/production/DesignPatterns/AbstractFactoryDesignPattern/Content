@@ -28,3 +28,29 @@ Let
         This also saves us from someone calling the wrong factory for a particular location.
         Here we need another layer of abstraction that will identify the location and internally use correct car factory implementation without even giving a single
         hint to the user. this is exactly the problem, which an abstract factory pattern is used to solve.
+
+
+        =====================================================================================================================================================================
+
+       The main difference beteween a Factory methond and an abstract Factory is that the factory method is a single method and an abstract factory is an object.
+       The Factory method is just a method, it can be overriddden in a subclass, whereas the abstractFactory is an object tat has multiple factory methods on it.
+       The Factory method pattern uses inheritance and relies on a subclass to handle the desired object instantiation.
+
+       Advantages: This pattern is particularly useful when the cleint does not know exactly what type to create.
+
+       Isolation of Concrete classes: The Abstract Factory pattern helps you Control the classes of objects that an application creates.
+       Because a factory encapsulates the responsibility and the process of creating product objects, it isolates clients from implementation classes.
+       Clients manipulate instances through their abstract interfaces. Product class names are isolated in the implementation of the concrete factory;
+       they do not appears in client Code.
+
+       Exchanging Products Families Easily: The class of a concrete factory appears only once in an application, that is where it is instantiated. this makes it easy
+       to change the concrete factory an application uses. It can use various product configurations simply by changing the concrete factory, because an abstract Factory creates
+       a complete family of products, the whole product family changes at once.
+
+       Promoting consistency among products: When product objects in a family are designet to work together, it is impostant that an application use objects from only one family
+       at a time.
+       AbstractFactory Makes easy to enfore.n
+
+
+
+

@@ -1,0 +1,10 @@
+What is The Decorator Desing Pattern ??
+
+    The Decorator Allows you to modify an object dynamically and you would use this pattern when
+    you want the capabilieties of inheritance with but you need to add functionality at runtime
+    you want this thing to be dynamic it is more flexible than inheritance and it is going to
+    simplify your code because you add functionality using many many simple classes rather than trying to do
+    all this throug inheritance and the great thing about it is it allows to rather than rewrite old code you are now
+    going to using the decorator design pattern extend with brand new code and keep everything the way that it was
+
+
